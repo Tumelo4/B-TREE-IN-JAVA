@@ -54,7 +54,7 @@ public class Main
 
 	public static void main(String[] args)
 	{
-		//Practical 3
+		
 
 		
 		BST<Integer> tree = new BST<Integer>();
@@ -102,70 +102,6 @@ public class Main
 		mirror.root = tree.mirror();
 
 		printTree(mirror, 0);
-	
-           
-		/* Expected Output:
-		8 5 12
-		5 12 8
-		8 12 5
-		12 5 8
-		Element 10 not found
-
-		Binary Search Tree Content:
-		3 [L: null]  [R: null]
-		5 [L: 3]  [R: 7]
-		7 [L: null]  [R: null]
-		8 [L: 5]  [R: 12]
-		10 [L: null]  [R: null]
-		12 [L: 10]  [R: 14]
-		14 [L: null]  [R: null]
-
-		Found element 10
-		Deleted element 8
-
-		Binary Search Tree Content:
-		3 [L: null]  [R: null]
-		5 [L: 3]  [R: 7]
-		7 [L: null]  [R: 12]
-		10 [L: null]  [R: null]
-		12 [L: 10]  [R: 14]
-		14 [L: null]  [R: null]
-		
-		Deleted element 8
-
-		Binary Search Tree Content:
-		3 [L: null]  [R: null]
-		5 [L: 3]  [R: null]
-		7 [L: 5]  [R: 12]
-		10 [L: null]  [R: null]
-		12 [L: 10]  [R: 14]
-		14 [L: null]  [R: null]
-
-
-		Binary Search Tree Content:
-		14 [L: null]  [R: null]
-		12 [L: 14]  [R: 10]
-		10 [L: null]  [R: null]
-		7 [L: 12]  [R: null]
-		5 [L: 7]  [R: 3]
-		3 [L: null]  [R: null]
-
-
-		*/
-		
-		// String sampleString = "01:20";
-		// String[] stringArray = sampleString.split(":");
-		// int[] intArray = new int[stringArray.length];
-		
-		// for(int i = 0; i < stringArray.length; i++){
-		// 	String numberAsString = stringArray[i];
-		// 	intArray[i] = Integer.parseInt(numberAsString);
-		// }
-		// int j;
-		// for(j = 0; j < intArray.length; j++)
-		// 	System.out.println(intArray[j]);
-		
-		// System.out.println(j);
 		
 	}
 }
